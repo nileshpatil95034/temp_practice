@@ -1,0 +1,37 @@
+### Git Push Code From Local Machine to Github Repository
+
+Step 1 : 
+Create Github Account on https://github.com/ (i.e UI)
+
+
+Step 2 :
+Create Repository and Copy Repository URL for http i.e :
+https://github.com/nileshpatil95034/temp_practice.git
+
+
+Step 3 :
+On Local Machine Goto folder Path --> right click --> git bash here 
+	git init
+	git status
+	git add project1.py
+	git commit -m "uploading"
+	git remote add origin https://github.com/nileshpatil95034/temp_practice.git
+	git push -u origin master
+
+
+## Work is remainign on that
+	# Push Code to Sub branch : nilesh
+	git remote add origin https://github.com/nileshpatil95034/temp_practice.git
+	git branch -M nilesh
+	git push -u origin master
+
+###
+Integrate Git with Glue
+
+##
+Integrate Git With Databricks
+
+##
+Integrate Git With Lambda
+
+	
